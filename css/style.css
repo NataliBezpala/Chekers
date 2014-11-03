@@ -3,37 +3,90 @@ body{
 }
 
 .board{
-    background-color:burlywood;
+    background: url("http://www.admira.sg/sites/default/files/imagecache/product_big/product/r_5732_fg_roxy_elegant.jpg");
     width:600px;
     height:600px;
     position: relative;
     margin: auto;
 }
-/*
 .letters-top{
+    width: 538px;
+    margin: auto;
+}
+.letters-top ul{
+    display: block;
+    text-align: center;
     width: 90%;
-    float: left;
     position: absolute;
-    left:5%;
+    padding: 0;
 
 }
 .letters-top li{
-    width: 12.5%;
     display: inline-block;
+    width: 11.5%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 30px;
+    font-weight: 700;
+    color: #352A24;
 }
+.numbers-left{
+    height: 538px;
+    position: absolute;
+    left: 2%;
+    top:9%;
+}
+.numbers-left ul{
+    display: block;
+    height: 100%;
+}
+.numbers-left li {
+    height: 12.5%;
+    font-weight: 700;
+    color: #352A24;
+}
+.numbers-right{
+    height: 538px;
+    position: absolute;
+    right: 2%;
+    top:9%;
+}
+.numbers-right ul{
+    display: block;
+    height: 100%;
+}
+.numbers-right li {
+    height: 12.5%;
+    font-weight: 700;
+    color: #352A24;
+}
+.letters-bottom{
+    width: 538px;
+    margin: auto;
+}
+.letters-bottom ul{
+    display: block;
+    text-align: center;
+    width: 90%;
+    position: absolute;
+    padding: 0;
+    bottom:0;
 
-.numbers-left li{
-    float: left;
-}
-.numbers-right li{
-    float: right;
 }
 .letters-bottom li{
     display: inline-block;
+    width: 11.5%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 30px;
+    font-weight: 700;
+    color: #352A24;
+}
 
-}*/
 .fields{
-    border: 8px solid #663300;
+    border: 5px solid #352A24;
     width:530px;
     height:530px;
     position: absolute;
@@ -54,8 +107,9 @@ body{
     height: 25%;
 }
 .fields-top .dark{
-     background-color: #663300;
-     width: 12.5%;
+    background-color: #352A24;
+    opacity: 0.9;
+    width: 12.5%;
     height: 100%;
     display: inline-block;
     float: left;
@@ -78,7 +132,7 @@ body{
     left: 0;
     right: 0;
     bottom: 0;
-    box-shadow: 4px 4px 2px rgba(30,30,32,1);
+    box-shadow: 0 4px 2px rgba(30,30,32,1);
 }
 .fields-bottom .dark{
     width: 12.5%;
@@ -87,7 +141,8 @@ body{
 
 }
 .fields-bottom .empty {
-    background-color: #663300;
+    background-color: #352A24;
+    opacity: 0.9;
     width: 12.5%;
     height: 100%;
     float: right;
@@ -104,6 +159,6 @@ body{
     left: 0;
     right: 0;
     bottom: 0;
-    box-shadow: 4px 4px 2px rgba(30,30,32,1);
+    box-shadow: 0 4px 2px rgba(30,30,32,1);
 }
 
