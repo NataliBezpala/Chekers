@@ -1,0 +1,109 @@
+body{
+    background-color: #ffffff;
+}
+
+.board{
+    background-color:burlywood;
+    width:600px;
+    height:600px;
+    position: relative;
+    margin: auto;
+}
+/*
+.letters-top{
+    width: 90%;
+    float: left;
+    position: absolute;
+    left:5%;
+
+}
+.letters-top li{
+    width: 12.5%;
+    display: inline-block;
+}
+
+.numbers-left li{
+    float: left;
+}
+.numbers-right li{
+    float: right;
+}
+.letters-bottom li{
+    display: inline-block;
+
+}*/
+.fields{
+    border: 8px solid #663300;
+    width:530px;
+    height:530px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.fields-top{
+    height: 50%;
+}
+.fields-bottom{
+    height: 50%;
+}
+.row1, .row2, .row3,.row4,.row5,.row6,.row7,.row8{
+    width: 100%;
+    height: 25%;
+}
+.fields-top .dark{
+     background-color: #663300;
+     width: 12.5%;
+    height: 100%;
+    display: inline-block;
+    float: left;
+    position: relative;
+ }
+.fields-top .empty{
+    width: 12.5%;
+    height: 100%;
+    display: inline-block;
+    float: left;
+}
+.fields-top .cheker {
+    border-radius: 50%;
+    background-color: #a42727;
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: 4px 4px 2px rgba(30,30,32,1);
+}
+.fields-bottom .dark{
+    width: 12.5%;
+    height: 100%;
+    float: right;
+
+}
+.fields-bottom .empty {
+    background-color: #663300;
+    width: 12.5%;
+    height: 100%;
+    float: right;
+    position: relative;
+}
+.fields-bottom .cheker {
+    border-radius: 50%;
+    background-color: #ffffff;
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: 4px 4px 2px rgba(30,30,32,1);
+}
+
